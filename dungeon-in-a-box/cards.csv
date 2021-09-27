@@ -1,0 +1,52 @@
+boss,bImage,bName,bAbility,bReward,bAttack,bHealth,BACK,+,backimage,
+,fish-monster.svg,The Fish,-1 to Hero Damage,3 Life AND 3 Attack,d6-3,10,y,backcard,giant.svg,
+,metal-golem-head.svg,Iron Golem,None,2 Life AND 2 Attack,d6-2,7,y,backcard,giant.svg,
+,pirate-captain.svg,Pirate Captain,None,2 Life AND 2 Attack,d6-1,4,y,backcard,giant.svg,
+,goblin-head.svg,Goblin King,1 Extra Boss Upgrade,2 Life AND 2 Attack AND 1 Potion,d6-1,6,y,backcard,giant.svg,
+,,,,,,,,,,
+item,iImage,iName,iBonus,iReward,BACK,+,backimage,,,
+,cloak.svg,Cloak,-1 to Hero Damage,1 Life AND 1 Energy,y,backcard,swords-emblem.svg,,,
+,battle-gear.svg,Battle Gear,+2 Life AND +1 Damage,2 Life AND 2 Energy,y,backcard,swords-emblem.svg,,,
+,armor-punch.svg,Flaming Fist,+2 Damage,1 Potion,y,backcard,swords-emblem.svg,,,
+,healing-shield.svg,Healing Shield,+5 Life,1 Potion,y,backcard,swords-emblem.svg,,,
+,,,,,,,,,,
+mtracker,,,,,,,,,,
+1,,,,,,,,,,
+htracker,,,,,,,,,,
+1,,,,,,,,,,
+,,,,,,,,,,
+potion,pImage,pName,pReward,BACK,+,backimage,,,,
+,bubbling-flask.svg,Potion of Awesomeness,2 Life AND 2 Energy,y,backcard,spiral-bottle.svg,,,,
+,fire-bottle.svg,Potion of Dexterity,2 Energy,y,backcard,spiral-bottle.svg,,,,
+,snow-bottle.svg,Potion of Greatness,Change 1 rolled dice to any number.,y,backcard,spiral-bottle.svg,,,,
+2,heart-bottle.svg,Potion of Life,2 Life,y,backcard,spiral-bottle.svg,,,,
+,magic-potion.svg,Potion of Sight,Flip over an adjacent room without moving into it.,y,backcard,spiral-bottle.svg,,,,
+,bottled-bolt.svg,Potion of Speed,Lose no life this turn from monsters.,y,backcard,spiral-bottle.svg,,,,
+,cloth-jar.svg,Potion of Strength,Monster lose an additional 2 Life this turn.,y,backcard,spiral-bottle.svg,,,,
+,,,,,,,,,,
+room,rImage,rName,Roll,rEffect,rReward,rAttack,rHealth,BACK,+,backroomimage
+,gooey-daemon.svg,Goo,5,Lose 1 Life,3 Life OR 3 Energy,2,d6,y,backroom,dungeon-gate.svg
+,harpy.svg,Harpy,4,Lose 1 Energy,1 Life OR 1 Energy AND 1 Potion,1,2d6,y,backroom,dungeon-gate.svg
+,alien-bug.svg,Bug,5,Lose 1 Life,1 Life OR 1 Energy AND 1 Potion,1,d6+3,y,backroom,dungeon-gate.svg
+,unfriendly-fire.svg,Elemental,5,Lose 1 Energy,1 Life OR 1 Energy AND 1 Potion,1,d6+3,y,backroom,dungeon-gate.svg
+,djinn.svg,Djinn,4,You must fight,1 Potion,1,2d6,y,backroom,dungeon-gate.svg
+,evil-tree.svg,Evil Tree,6,Lose 1 Life,2 Life AND 2 Energy OR 1 Potion,2,4,y,backroom,dungeon-gate.svg
+,ice-golem.svg,Ice Golem,3,Lose 2 Life,3 Life OR 3 Energy AND 1 Potion,2,3d6,y,backroom,dungeon-gate.svg
+,alien-egg.svg,Hatching Egg,4,Lose 1 Life,1 Life AND 1 Energy,1,d6,y,backroom,dungeon-gate.svg
+,shambling-mound.svg,Vine Golem,4,Lose 2 Life,2 Life OR 2 Energy AND 1 Potion,1,3d6,y,backroom,dungeon-gate.svg
+,hydra.svg,Hydra,3,You must fight,2 Life OR 2 Energy AND 1 Potion,2,d6+6,y,backroom,dungeon-gate.svg
+,spectre.svg,Spectre,3,Lose 3 Life,3 Life OR 3 Energy OR 1 Potion,1,d6+6,y,backroom,dungeon-gate.svg
+,slime.svg,Slime,4,Lose 1 Energy,1 Life AND 1 Energy,1,d6,y,backroom,dungeon-gate.svg
+,bat.svg,Bat,3,Lose 3 Life,2 Life OR 2 Energy,1,d6,y,backroom,dungeon-gate.svg
+,fairy.svg,Fairy,6,Lose 1 Life,2 Life OR 2 Energy AND 1 Potion,2,3,y,backroom,dungeon-gate.svg
+,shambling-zombie.svg,Zombie,3,Lose 1 Life,1 Life AND 1 Energy AND 1 Potion,2,d6+6,y,backroom,dungeon-gate.svg
+,werewolf.svg,Werewolf,3,Lose 3 Life,1 Life OR 1 Energy AND 1 Potion,2,2d6,y,backroom,dungeon-gate.svg
+,wyvern.svg,Wyvern,5,You must fight,1 Life OR 1 Energy OR 1 Potion,1,d6+3,y,backroom,dungeon-gate.svg
+,troglodyte.svg,Troglodyte,3,Lose 1 Potion,2 Potions,1,3d6,y,backroom,dungeon-gate.svg
+,,,,,,,,,,
+specialroom,sImage,sName,sDescription,BACK,+,backroomimage,,,,
+,key.svg,Aged Key,Draw a Boss Card\n(flight is not an option).\nReward:\nAged Key,y,backroom,dungeon-gate.svg,,,,
+,millenium-key.svg,Millenium Key,Draw a Boss Card\n(flight is not an option).\nReward:\nMillenium Key,y,backroom,dungeon-gate.svg,,,,
+,skeleton-key.svg,Skeleton Key,Draw a Boss Card\n(flight is not an option).\nReward:\nSkeleton Key,y,backroom,dungeon-gate.svg,,,,
+,falling-rocks.svg,Cave In,You can not move through this room.,y,backroom,dungeon-gate.svg,,,,
+2,,Empty Room,This room is empty.,y,backroom,dungeon-gate.svg,,,,
