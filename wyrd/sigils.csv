@@ -131,6 +131,7 @@
 ,s-249.png,y,@card,s-264-back.png
 ,s-250.png,y,@card,s-264-back.png
 ,s-251.png,y,@card,s-264-back.png
+ENDROW
 
 @big,bImage,BACK,+,bImage
 ,s-264.png,y,@big,s-299-back.png
